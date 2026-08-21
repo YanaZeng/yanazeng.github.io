@@ -1,0 +1,17 @@
+name: Yan Zeng (Yana)
+name_zh: 曾艳
+job_title: Lecturer
+organization: Beijing Technology and Business University
+homepage: https://yanazeng.github.io/
+# image: /utils/libo-huang.webp
+image: utils/RIKEN_2019.JPG
+social_image: utils/RIKEN_2019.JPG
+same_as:
+  - https://github.com/YanaZeng
+  - https://www.linkedin.com/in/yan-zeng-849b8b16a/
+  - https://scholar.google.com/citations?user=XyxLHCAAAAAJ&hl=zh-CN
+  - https://orcid.org/0000-0001-7721-2560
+research_topics:
+  - Causal discovery and causal inference;
+  - Causal reinforcement learning, etc.
+

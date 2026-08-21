@@ -1,0 +1,18 @@
+title: "Yan Zeng's Homepage"
+description: "Yan Zeng, lecturer at Beijing Technology and Business University (BTBU), China."
+url: "https://libo-huang.github.io"
+baseurl: ""
+timezone: Asia/Shanghai
+encoding: utf-8
+theme: null
+
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - scripts
+  - vendor

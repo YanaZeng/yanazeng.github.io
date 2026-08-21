@@ -1,0 +1,14 @@
+{% assign locale = site.data.site.locales[page.lang] %}
+<div class="navbar">
+    <div class="navbar-logo">
+        <a href="https://www.btbu.edu.cn/" target="_blank" title="北京工商大学" rel="noopener noreferrer">
+            <img src="{{ '/utils/btbu.svg' | relative_url }}" height="45" alt="{{ locale.logo_alt }}">
+            <!-- <img src="{{ '/utils/ict.png' | relative_url }}" width="565" height="76" alt="{{ locale.logo_alt }}"> -->
+        </a>
+    </div>
+    <div class="navbar-links">
+        {% for item in site.data.site.navigation %}
+        <a href="#{{ item.id }}"{% if forloop.first %} class="active"{% endif %}>{{ item[page.lang] }}</a>
+        {% endfor %}
+    </div>
+</div>

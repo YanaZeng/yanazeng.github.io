@@ -1,0 +1,118 @@
+---
+lang: zh-CN
+title: "曾艳的个人主页"
+description: "曾艳，北京工商大学因果推断团队的讲师，研究方向包括因果发现、因果推断、因果强化学习与因果机器学习。"
+canonical_path: /index_zh-CN.html
+og_locale: zh_CN
+alternate_locale: en_US
+---
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+{% include head.html %}
+</head>
+   
+
+
+
+
+
+<body>
+
+{% include navbar.html %}
+
+<div class="main-container">
+{% include sidebar.html %}
+
+<div class="content">
+
+<h2 id="about_me">
+个人简介
+<a class="h2-button" href="https://www.linkedin.com/in/yan-zeng-849b8b16a/" target="_blank" rel="noopener noreferrer">
+    <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+    领英
+</a>
+</h2>
+
+<p>
+    我是<a href="https://www.btbu.edu.cn/" target="_blank" rel="noopener noreferrer">北京工商大学</a>应用统计系讲师，隶属于<a href="http://math.pku.edu.cn/teachers/gengzhi/" target="_blank" rel="noopener noreferrer">耿直教授</a>带领的因果推断团队。同时，我也很荣幸担任日本理化学研究所的访问学者，与 <a href="https://sites.google.com/view/sshimizu06/" target="_blank" rel="noopener noreferrer">清水昌平教授</a>开展合作。
+    在加入北京工商大学之前，我于<a href="https://www.tsinghua.edu.cn/" target="_blank" rel="noopener noreferrer">清华大学</a>计算机系从事博士后研究工作（2021–2023），合作导师为<a href="https://www.cs.tsinghua.edu.cn/csen/info/1312/4393.htm" target="_blank" rel="noopener noreferrer">孙富春教授</a>，主要研究方向为因果强化学习。
+    我于<a href="https://www.gdut.edu.cn/" target="_blank" rel="noopener noreferrer">广东工业大学</a>获得工学博士学位（2016–2021），导师为<a href="https://scholar.google.com.sg/citations?user=ZF3gp9wAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">郝志峰教授</a>和<a href="https://ruichucai.github.io/" target="_blank" rel="noopener noreferrer">蔡瑞初教授</a>，并由<a href="https://sites.google.com/view/sshimizu06/" target="_blank" rel="noopener noreferrer">清水昌平教授</a>联合指导。期间（2019–2020），我曾作为访问博士生在日本理化学研究所因果推断团队进行交流学习。
+</p>
+
+<h2 id="research_interests">
+研究兴趣
+<a class="h2-button" href="https://btbu-causality.group/" target="_blank" rel="noopener noreferrer">
+    <img src="/utils/logo_blue.png" width="60" height="50" alt="">
+    团队主页
+</a>
+</h2>
+
+我的研究聚焦于因果机器学习，致力于将因果理论与可靠的决策与学习系统相结合。具体研究方向分为以下两个核心板块：
+<ul style="list-style-type: disc !important; padding-left: 25px; line-height: 1.7;">
+    <li style="margin-bottom: 12px; list-style-type: disc !important;">
+        <strong>因果理论与方法</strong>
+        <ul style="list-style-type: circle !important; padding-left: 20px; margin-top: 6px;">
+            <li style="margin-bottom: 6px; list-style-type: circle !important;">
+                <strong>因果结构学习：</strong> 探索从观测数据中挖掘因果关系，重点关注隐变量发现、未观测混淆变量、局部结构学习、混合数据以及多领域环境等。
+            </li>
+            <li style="margin-bottom: 6px; list-style-type: circle !important;">
+                <strong>因果效应估计：</strong> 结合数据驱动方法，利用工具变量、调整集等实现因果效应的识别与估计。
+            </li>
+        </ul>
+    </li>
+    <li style="margin-bottom: 12px; list-style-type: disc !important;">
+        <strong>因果赋能机器学习</strong>
+        <ul style="list-style-type: circle !important; padding-left: 20px; margin-top: 6px;">
+            <li style="margin-bottom: 6px; list-style-type: circle !important;">
+                <strong>因果决策：</strong> 将反事实分析、因果干预等因果知识融入因果强化学习、因果模仿学习以及长短期策略学习中。
+            </li>
+            <li style="margin-bottom: 6px; list-style-type: circle !important;">
+                <strong>可靠学习系统：</strong> 通过因果持续学习与因果驱动的表征学习，提升模型的可解释性、自适应性与鲁棒性。
+            </li>
+        </ul>
+    </li>
+</ul>
+
+
+
+
+<h2 id="news">最新动态</h2>
+{% include news.html %}
+
+
+
+<h2 id="publications">
+发表论文 
+
+<a class="h2-button" href="https://scholar.google.com/citations?user=XyxLHCAAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">
+    <i class="ai ai-google-scholar-square" aria-hidden="true"></i>
+    谷歌学术
+</a>
+
+</h2>
+<!-- <div class="publication-search" role="search" aria-label="搜索论文">
+    <label class="visually-hidden" for="publication-search-input">搜索论文</label>
+    <div class="publication-search-box">
+        <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+        <input id="publication-search-input" type="search" placeholder="按标题、作者、会议或年份搜索……" autocomplete="off" spellcheck="false">
+        <span id="publication-search-count" class="publication-search-count" aria-live="polite"></span>
+    </div>
+    <p id="publication-search-empty" class="publication-search-empty" hidden>没有找到匹配的论文。</p>
+</div> -->
+{% include publications.html %}
+
+
+
+
+<h2 id="others">其他</h2>
+{% include others.html %}
+
+
+</div>
+</div>
+
+
+
+</body>
+</html>

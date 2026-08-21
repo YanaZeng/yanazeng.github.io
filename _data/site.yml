@@ -1,0 +1,116 @@
+navigation:
+  - id: about_me
+    en: About Me
+    zh-CN: 个人简介
+  - id: research_interests
+    en: Research Interests
+    zh-CN: 研究兴趣
+  - id: news
+    en: News
+    zh-CN: 最新动态
+  - id: publications
+    en: Publications
+    zh-CN: 发表论文
+  - id: others
+    en: Others
+    zh-CN: 其他
+
+locales:
+  en:
+    logo_alt: Beijing Technology and Business University logo
+    name: Yan Zeng (Yana)
+    avatar_alt: Yan Zeng
+    theme: "◐ Auto"
+    recruitment1_title: Recruitment
+    recruitment1_summary: Master's Program
+    recruitment1_body: Warmly welcome students interested in causal inference, causal reinforcement learning, and machine learning. Interested candidates are encouraged to send their CVs to
+    recruitment2_title: Openings
+    recruitment2_summary: Collaboration
+    recruitment2_body: Open to academic collaborations in causal learning and artificial intelligence. Interested candidates are encouraged drop me an email at
+    copyright_name: Yan Zeng. 
+    build_label: "Last update: "
+    more_news: More News
+    template_credit_prefix: "Template adapted from "
+    template_credit_name: "Libo Huang"
+  zh-CN:
+    logo_alt: 北京工商大学标志
+    name: 曾艳
+    avatar_alt: 曾艳
+    theme: "◐ 自动"
+    recruitment1_title: 学生招生
+    recruitment1_summary: 硕士研究生招生
+    recruitment1_body: 欢迎对因果推断、因果强化学习及机器学习感兴趣的学生联系交流，有意者请将个人简历发送至
+    recruitment2_title: 学术合作
+    recruitment2_summary: 合作交流
+    recruitment2_body: 欢迎因果学习与人工智能领域的学术交流与合作。有意者请邮件联系
+    copyright_name: 曾艳 
+    build_label: 最近更新：
+    more_news: 更多动态
+    template_credit_prefix: "网页模板参考自 "
+    template_credit_name: "黄礼泊"
+
+contacts:
+  - key: position
+    icon: fa-solid fa-address-card
+    label_en: Position
+    label_zh-CN: 职位
+    value_en: Lecturer
+    value_zh-CN: 讲师
+  - key: affiliation
+    icon: fa-solid fa-building-columns
+    label_en: Affiliation
+    label_zh-CN: 单位
+    value_en: School of Mathematics and Statistics, Beijing Technology and Business University
+    value_zh-CN: 北京工商大学，数学与统计学院
+  - key: address
+    icon: fa-solid fa-location-dot
+    label_en: Address
+    label_zh-CN: 地址
+    value_en: No.11 & No.33 Fucheng Road, Haidian District, Beijing, 100048, China. <br><br> Building of Mathematics and Statistics, BTBU, Liangxiang District, Beijing, 102488, China.
+    value_zh-CN: 阜成路校区：北京市海淀区阜成路11号、33号（100048）<br><br> 良乡主校区：北京市良乡高教园区北京工商大学数统楼（102488）
+  - key: email
+    icon: fa-solid fa-envelope
+    label_en: Email
+    label_zh-CN: 邮箱
+  - key: scholar
+    icon: ai ai-google-scholar-square
+    label_en: Google Scholar
+    label_zh-CN: 谷歌学术
+    value_en: scholar.google.com/Yan Zeng
+    value_zh-CN: scholar.google.com/Yan Zeng
+    url: https://scholar.google.com/citations?user=XyxLHCAAAAAJ&hl=zh-CN
+  - key: github
+    icon: fa-brands fa-github
+    label_en: GitHub
+    label_zh-CN: GitHub
+    value_en: github.com/Yan Zeng
+    value_zh-CN: github.com/Yan Zeng
+    url: https://github.com/YanaZeng
+  - key: linkedin
+    icon: fa-brands fa-linkedin
+    label_en: LinkedIn
+    label_zh-CN: 领英
+    value_en: linkedin.com/in/yan-zeng
+    value_zh-CN: linkedin.com/in/yan-zeng
+    url: https://www.linkedin.com/in/yan-zeng-849b8b16a/
+  - key: orcid
+    icon: fa-brands fa-orcid
+    label_en: ORCID
+    label_zh-CN: ORCID
+    value_en: orcid.org/0000-0001-7721-2560
+    value_zh-CN: orcid.org/0000-0001-7721-2560
+    url: https://orcid.org/0000-0001-7721-2560
+  # - key: wechat
+  #   icon: fa-brands fa-weixin
+  #   label_en: WeChat
+  #   label_zh-CN: 微信
+  #   value_en: libohuang_ict
+  #   value_zh-CN: libohuang_ict
+  # - key: homepage
+  #   icon: fa-solid fa-house
+  #   label_en: Homepage
+  #   label_zh-CN: 个人主页
+  #   value_en: libo-huang.github.io
+  #   value_zh-CN: libo-huang.github.io
+  #   url: https://libo-huang.github.io/
+
