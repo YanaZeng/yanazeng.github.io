@@ -869,6 +869,10 @@
     <button class="copy-button js-copy" type="button">copy</button></pre>
     </div>
 
+
+
+
+
 <!-- 
  ================= 在投 / 准备中工作板块 ================= 
 <h3 class="pub-year" style="margin-top: 40px;">Preprints & Working Papers</h3>
@@ -954,6 +958,59 @@
 
 
 
+
+
+<!-- 样式补充：控制 Cite 框默认隐藏与展开 -->
+<style>
+    .pub-item .code-block {
+      display: none; /* 默认隐藏 BibTeX */
+      margin-top: 10px;
+      position: relative;
+    }
+    .pub-item .code-block.active {
+      display: block; /* 点击 Cite 后展开 */
+    }
+</style>
+  
+<!-- 交互脚本：实现点击展开与复制功能 -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+// 1. 点击 Cite 按钮展开/收起 BibTeX
+document.querySelectorAll('.js-bibtex-toggle').forEach(function(button) {
+    button.addEventListener('click', function() {
+    var pubItem = this.closest('.pub-item');
+    if (pubItem) {
+        var codeBlock = pubItem.querySelector('.code-block');
+        if (codeBlock) {
+        codeBlock.classList.toggle('active');
+        }
+    }
+    });
+});
+
+// 2. 点击 copy 按钮一键复制 BibTeX 内容
+document.querySelectorAll('.js-copy').forEach(function(button) {
+    button.addEventListener('click', function() {
+    var codeBlock = this.closest('.code-block');
+    if (codeBlock) {
+        // 提取 BibTeX 文本（排除按钮文字）
+        var clone = codeBlock.cloneNode(true);
+        var btnInClone = clone.querySelector('.copy-button');
+        if (btnInClone) btnInClone.remove();
+        var textToCopy = clone.textContent.trim();
+
+        navigator.clipboard.writeText(textToCopy).then(function() {
+        var originalText = button.textContent;
+        button.textContent = 'Copied!';
+        setTimeout(function() {
+            button.textContent = originalText;
+        }, 2000);
+        });
+    }
+    });
+});
+});
+</script>
 
 
 

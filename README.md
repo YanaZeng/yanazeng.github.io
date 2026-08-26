@@ -52,7 +52,7 @@ gem install jekyll bundler
 Start the Jekyll server:
 
 ```Bash
-jekyll server
+bundle exec jekyll serve
 ```
 
 ### 4. Live Preview
@@ -62,6 +62,13 @@ Open your browser and visit: http://127.0.0.1:4000/
 💡 Tip: The site will automatically rebuild when you save changes to `index.html`, `index_zh-CN.html`, or any file inside the `_includes/` folder. Just refresh your browser to view updates.
 
 
+### 5. Update
+
+```Bash
+git add .
+git commit -m "Update news with grants and editorial position"
+git push
+```
 
 ---
 
